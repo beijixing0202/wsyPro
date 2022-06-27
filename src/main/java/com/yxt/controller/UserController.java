@@ -55,7 +55,7 @@ public class UserController {
             map.put("msg","用户登录成功");
         }else if (password.isEmpty()){
             map.put("status",204);
-            map.put("msg","用户登录成功");
+            map.put("msg","密码不能为空");
             return map;
         }
 
